@@ -39,7 +39,7 @@ window.title("Text Analysis")
 
 main_frame = tkinter.Frame(window)
 main_frame.config(width=800, height=400)
-main_frame.grid()
+main_frame.pack()
 
 user_input = tkinter.StringVar()
 
