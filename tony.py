@@ -43,7 +43,7 @@ main_frame.pack()
 
 user_input = tkinter.StringVar()
 
-my_text = tkinter.Label(main_frame, text="Insert your text below", font=("Helvetica", 16), fg="blue", background="white")
+my_text = tkinter.Label(main_frame, text="Insert your text below... or not", font=("Helvetica", 16))
 my_text.pack()
 
 entry_frame = tkinter.Frame(main_frame, width=360, height=360)
