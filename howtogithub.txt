@@ -1,0 +1,92 @@
+*****ON PC!*****
+
+FIRST - TO CLONE:
+1. Open Git CMD
+2. Find your folder and copy the path as text (e.g., cd c:\Users\ryan_ etc. etc.)
+3. Type "cd " and then paste the path where you want to clone the project
+4. Go to Git Hub and click the green "code" button. Then click the "copy" button to copy the https code.
+5. Type "git clone " and then paste the code
+6. This creates the folder and downloads the files to your computer!
+
+
+NEXT - TO CHANGE BRANCHES!
+1. Open Git CMD
+2. Find your folder and copy the path as text (e.g., cd c:\Users\ryan_ etc. etc.)
+3. Type "cd " and then paste the path where you cloned the project
+4. Type "git status" to check and make sure you are in the cloned folder  <not always necessary>
+5a. (if the branch already exists) Type "git checkout {branch name}" to switch branches. 
+5b. (if it is a new branch) Type "git checkout -b {new branch name}" to create a new branch and switch to it.
+
+
+NEXT - TO PUSH CHANGES!
+<same 1-3 as above>
+1. Be sure you are on YOUR branch and not on the branch called "main"
+2. Type "git status" - this will let you see any and all files that you edited. They will show up in red
+3. Type "git add {filename}" or "git add .\{path name}" to add new stuff to the branch (the things you wanna update)
+*You can use the tab key to make sure file names are accurate
+
+**If you accidentally add a filename you didn't mean to:
+4a. Type "git status" to check that these are really the files that you want to add
+4b. Type "git rm {filename} -r" or "git rm .\{path name} -r" if there is anything you DON'T want to add
+
+5. When satisfied with the accuracy of the git status, type "git commit -m"  *remember to type quotation marks and your message after "-m" to add a message about what it is you are pushing
+6a. (if this is NOT the first time pushing to this branch) When satisfied, type "git push"
+6b. (if this IS the first time pushing to this branch) Do step 6a. It will give you an error message and ask you to type something like "push--set-upstream {branchname} origin" Just follow the instructions.
+7. Check the github in the browser to make sure that he changes 
+
+
+FINALLY - TO PULL!
+1. Open Git CMD
+2. Find your folder and copy the path as text (e.g., cd c:\Users\ryan_ etc. etc.)
+3. Type "cd " and then paste the path where you cloned the project
+4. Type "git status" to check and make sure you are in the cloned folder  <not always necessary>
+4b.* Make sure that you are pulling from the main branch. (usually that is what you want. You can also pull just from your branch if you want) If you need to change branches, see above. (e.g., to chagne to main type "git checkout main")
+5. Type "git pull"
+
+
+
+
+*****ON MAC!*****
+FIRST - TO CLONE:
+1. Open GitHub in the browser. Find the green "code" button. You should be able to select "open with github desktop" and clone from there.
+2. This creates the folder and downloads the files to your computer!
+
+
+NEXT - TO CHANGE BRANCHES!
+1. Open Your GitHub Application
+2. Select "branch" from the top menu
+3a. (if the branch already exists) Select the branch to switch brances. 
+3b. (if it is a new branch) Select create new branch and follow the instructions.
+
+
+NEXT - TO PUSH CHANGES!
+<same 1-3 as above>
+1. Open Your GitHub Application
+2. Find the "changes" menu on the left-hand side of the screen.
+3. Select the changes you want to add (they are all automatically checked)
+4. Go to the bottom left-hand side of the screen and make a name for the commit <necessary>
+5. Type some message in the message box <recommended, not necessary>
+6. Push the green "commit changes" button
+7. Select "branch" from the top menu and then select "push"*
+*Be sure that you are in your branch and NOT in "main"
+8. Check the github in the browser to make sure that he changes 
+
+
+FINALLY - TO PULL!
+1. Open the GitHub Application
+2. Switch to the branch that you want to pull (usually "main")
+3. Select "fetch" changes, or select "branch" from the top menu and then select "pull"
+
+
+
+
+*****FOR EVERYONE!!!*****
+HOW TO CREATE A PULL REQUEST
+
+1. Open GitHub in your web-browser
+2. Look near the top of the page. You should see some options such as "code", ""issues", "pull requests";  click on "pull requests"
+3. Click "create new pull request"
+4. You should be able to select your branch
+5. On the right-hand side, there is a place where you can "add a reviewer". Please add my account name "springuistics"
+
+
