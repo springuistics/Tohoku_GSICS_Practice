@@ -26,7 +26,7 @@ def begin():
     sentence_count = count_sentences(input_data)
     MLS = safe_MLS(word_count, sentence_count)
     if word_count < 10:
-        return output.config(text="Your number of words is not enough")
+        return output.config(text="Your number of birds is not enough")
     elif MLS < 6:
         return output.config(text="Please use longer sentences")
     else:
