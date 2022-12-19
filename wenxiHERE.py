@@ -27,9 +27,9 @@ def begin():
     sentence_count = count_sentencese(input_data)
     MLS = safe_MLS(word_count, sentence_count)
     if word_count < 10:
-        output.config(text=f"Please type more words")
+        output.config(text=f"Please type less words")
     if MLS < 6:
-        output.config(text=f"Please use longer sentences")
+        output.config(text=f"Please use shorter sentences")
     else:
         output.config(text=f"Your number of word is: {word_count}, and your MLS is:{MLS}")
 
