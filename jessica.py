@@ -43,7 +43,8 @@ window.minsize(800, 400)
 
 user_input = tkinter.StringVar()
 
-my_text = tkinter.Label(window, text="My number of words is", font=('Segoe Script', 25, 'bold', 'italic'), fg="red")
+
+my_text = tkinter.Label(window, text="Insert Text Here", font=('Segoe Script', 25, 'bold', 'italic'), fg="red")
 my_text.pack()
 
 username = tkinter.Entry(window, textvariable=user_input, width=60)

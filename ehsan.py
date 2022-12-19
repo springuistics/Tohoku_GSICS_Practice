@@ -21,4 +21,4 @@ def safe_MLS(x, y):
         return x/y
 
 def begin():
-    input_data = user_
+    input_data = user_update
